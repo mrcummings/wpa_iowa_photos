@@ -50,10 +50,10 @@ metadata: wpa_clean
 #   Enter information for your organization (replacing the CDIL links and name below) if you'd like to brand your site with a logo
 #   To remove the branding, comment out these values, or delete them. 
 #
-organization-name: Digital Scholarship and Initiatives
-organization-link: https://digital.lib.iastate.edu/
-organization-logo-banner: https://cdil.lib.uidaho.edu/storying-extinction/assets/img/cdil.png
-organization-logo-nav: https://cdil.lib.uidaho.edu/assets/img/logo.png
+organization-name: "Iowa State University Library Digital Collections"
+organization-link: https://digitalcollections.lib.iastate.edu/
+organization-logo-banner: https://digitalcollections.lib.iastate.edu/sites/public.uni.dgicloud.com.isu/files/ISU_secondary_red.png
+organization-logo-nav: https://digitalcollections.lib.iastate.edu/sites/public.uni.dgicloud.com.isu/files/DClogo3.gif
 
 ##########
 # ROBOTS EXCLUDE
