@@ -4,18 +4,49 @@
 layout: item/item-page-base
 gallery: true
 ---
-{% assign children = site.data[site.metadata] | where_exp: 'item','item.parentid == page.objectid' %}
 
 <div class="mb-4 text-center">
 
-    {% for child in children %}
-    <div id="{{ child.objectid }}" class="mb-4">
-        <a class="spotlight gallery-img" data-download="true" title="{% if page.title != child.title %}{{ child.title | escape }}{% else %}{{ page.title | escape }} [{{ forloop.index }}]{% endif %}" href="{{ child.object_location | relative_url }}">
-            <img src="{{ child.image_small | relative_url }}" alt="{{ child.image_alt_text | default: child.description | default: child.title | default: page.title | escape }}" class="img-fluid mb-2">
-            {% if page.title != child.title %}<div><small class="text-dark">{{ child.title }}</small></div>{% endif %}
-        </a>
-    </div>
-    {% endfor %}
+    <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
+    <div id="mirador" style="width:1000px;height:600px;position:relative"></div>
+    <script>
+
+var miradorInstance = Mirador.viewer({
+  id: "mirador",
+  selectedTheme: 'dark', // i've chosen the light theme, you could try dark
+  window: {
+    defaultView: 'individuals', 
+    sideBarOpen: true, // try changing to false
+    sideBarPanel: "canvas",
+    views: [
+      { key: "single", behaviors: ["individuals", "paged"] },
+      { key: "book", behaviors: ["individuals"] },
+      { key: "scroll", behaviors: ["continuous"] },
+      { key: "gallery" }
+    ]
+  },
+  windows: [
+    // {
+    //   manifestId: "https://scta.info/iiif/plaoulcommentary/sorb/manifest", //add a manifest here that you want to miror to display onload
+    //   canvasId: "http://scta.info/iiif/sorb/canvas/S2r" //add a canvas here within the above manifest that you want mirador to open on load
+    // },
+    {
+      manifestId: "http://127.0.0.1:5501/manifest-{{page.pid}}.json"
+    }
+    // if you want into open another canvas, add another block here
+  ],
+  // list any of the manifest you want your mirador instance to load; any manifest listed above must be included below
+  catalog: [
+    {
+      manifestId: "https://iiif.harvardartmuseums.org/manifests/object/299843"
+    },
+    {
+      manifestId: "https://scta.info/iiif/plaoulcommentary/sorb/manifest"
+    }
+    // add more manifests here if desired
+  ]
+});
+      </script>
 
     <div class="my-2">
 
