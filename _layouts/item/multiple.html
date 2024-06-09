@@ -1,14 +1,15 @@
 ---
 # layout for "multiple" display template
-# creates large images with a gallery feature
+# creates a Mirador IIIF viewer that allows users to page between the images in a multiple.
 layout: item/item-page-base
 gallery: true
 ---
+{% assign children = site.data[site.metadata] | where_exp: 'item','item.parentid == page.objectid' %}
 
 <div class="mb-4 text-center">
 
     <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
-    <div id="mirador" style="width:1000px;height:600px;position:relative"></div>
+    <div id="mirador" style="width:1000px;height:550px;position:relative"></div>
     <script>
 
 var miradorInstance = Mirador.viewer({
@@ -16,7 +17,7 @@ var miradorInstance = Mirador.viewer({
   selectedTheme: 'dark', // i've chosen the light theme, you could try dark
   window: {
     defaultView: 'individuals', 
-    sideBarOpen: true, // try changing to false
+    sideBarOpen: false, // try changing to false
     sideBarPanel: "canvas",
     views: [
       { key: "single", behaviors: ["individuals", "paged"] },
