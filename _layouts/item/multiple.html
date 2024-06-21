@@ -14,10 +14,10 @@ gallery: true
 
 var miradorInstance = Mirador.viewer({
   id: "mirador",
-  selectedTheme: 'dark', // i've chosen the light theme, you could try dark
+  selectedTheme: 'dark', // try changing to 'light'
   window: {
     defaultView: 'individuals', 
-    sideBarOpen: false, // try changing to false
+    sideBarOpen: false, // try changing to true
     sideBarPanel: "canvas",
     views: [
       { key: "single", behaviors: ["individuals", "paged"] },
@@ -28,7 +28,7 @@ var miradorInstance = Mirador.viewer({
   },
   windows: [
     // {
-    //   manifestId: "https://scta.info/iiif/plaoulcommentary/sorb/manifest", //add a manifest here that you want to miror to display onload
+    //   manifestId: "https://scta.info/iiif/plaoulcommentary/sorb/manifest", //add a manifest here that you want to mirror to display onload
     //   canvasId: "http://scta.info/iiif/sorb/canvas/S2r" //add a canvas here within the above manifest that you want mirador to open on load
     // },
     {
@@ -37,15 +37,15 @@ var miradorInstance = Mirador.viewer({
     // if you want into open another canvas, add another block here
   ],
   // list any of the manifest you want your mirador instance to load; any manifest listed above must be included below
-  catalog: [
-    {
-      manifestId: "https://iiif.harvardartmuseums.org/manifests/object/299843"
-    },
-    {
-      manifestId: "https://scta.info/iiif/plaoulcommentary/sorb/manifest"
-    }
-    // add more manifests here if desired
-  ]
+  // catalog: [
+  //   {
+  //     manifestId: "https://iiif.harvardartmuseums.org/manifests/object/299843"
+  //   },
+  //   {
+  //     manifestId: "https://scta.info/iiif/plaoulcommentary/sorb/manifest"
+  //   }
+  //   // add more manifests here if desired
+  // ]
 });
       </script>
 
