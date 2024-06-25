@@ -1,0 +1,76 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://digitalcollections.lib.iastate.edu/iiif/2/isu:WPA_b8f59i4/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Photograph of people working on a sewer pipe in Webster City"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://digitalcollections.lib.iastate.edu/canvas/iawpa3427",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Front"
+        ]
+      },
+      "height": 4792,
+      "width": 5912,
+      "items": [
+        {
+          "id": "https://digitalcollections.lib.iastate.edu/canvas/iawpa3427/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digitalcollections.lib.iastate.edu/canvas/iawpa3427/annotation/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://digitalcollections.lib.iastate.edu/iiif/2/isu:WPA_b8f59i4_1~JP2~~isu_public/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 4792,
+                "width": 5912,
+                "format": "image/jpg"
+              },
+              "target": "https://digitalcollections.lib.iastate.edu/canvas/iawpa3427"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://digitalcollections.lib.iastate.edu/canvas/iawpa3428",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Back"
+        ]
+      },
+      "height": 4823,
+      "width": 5948,
+      "items": [
+        {
+          "id": "https://digitalcollections.lib.iastate.edu/canvas/iawpa3428/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digitalcollections.lib.iastate.edu/canvas/iawpa3428/annotation/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://digitalcollections.lib.iastate.edu/iiif/2/isu:WPA_b8f59i4_2~JP2~~isu_public/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 4823,
+                "width": 5948,
+                "format": "image/jpg"
+              },
+              "target": "https://digitalcollections.lib.iastate.edu/canvas/iawpa3428"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

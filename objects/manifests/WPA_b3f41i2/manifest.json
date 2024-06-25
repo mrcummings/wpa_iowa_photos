@@ -1,0 +1,76 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://digitalcollections.lib.iastate.edu/iiif/2/isu:WPA_b3f41i2/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Photograph of construction at the State Fairgrounds in Des Moines"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://digitalcollections.lib.iastate.edu/canvas/iawpa1286",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Front"
+        ]
+      },
+      "height": 4742,
+      "width": 6072,
+      "items": [
+        {
+          "id": "https://digitalcollections.lib.iastate.edu/canvas/iawpa1286/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digitalcollections.lib.iastate.edu/canvas/iawpa1286/annotation/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://digitalcollections.lib.iastate.edu/iiif/2/isu:WPA_b3f41i2_1~JP2~~isu_public/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 4742,
+                "width": 6072,
+                "format": "image/jpg"
+              },
+              "target": "https://digitalcollections.lib.iastate.edu/canvas/iawpa1286"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://digitalcollections.lib.iastate.edu/canvas/iawpa1287",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Back"
+        ]
+      },
+      "height": 6096,
+      "width": 4754,
+      "items": [
+        {
+          "id": "https://digitalcollections.lib.iastate.edu/canvas/iawpa1287/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digitalcollections.lib.iastate.edu/canvas/iawpa1287/annotation/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://digitalcollections.lib.iastate.edu/iiif/2/isu:WPA_b3f41i2_2~JP2~~isu_public/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 6096,
+                "width": 4754,
+                "format": "image/jpg"
+              },
+              "target": "https://digitalcollections.lib.iastate.edu/canvas/iawpa1287"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

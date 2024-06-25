@@ -1,0 +1,44 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://digitalcollections.lib.iastate.edu/iiif/2/isu:WPA_b7f13i3/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Description of newspaper clippings"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://digitalcollections.lib.iastate.edu/canvas/iawpa2679",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 6588,
+      "width": 5066,
+      "items": [
+        {
+          "id": "https://digitalcollections.lib.iastate.edu/canvas/iawpa2679/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digitalcollections.lib.iastate.edu/canvas/iawpa2679/annotation/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://digitalcollections.lib.iastate.edu/iiif/2/isu:WPA_b7f13i3_1~JP2~~isu_public/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 6588,
+                "width": 5066,
+                "format": "image/jpg"
+              },
+              "target": "https://digitalcollections.lib.iastate.edu/canvas/iawpa2679"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

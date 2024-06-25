@@ -1,0 +1,76 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://digitalcollections.lib.iastate.edu/iiif/2/isu:WPA_b8f24i2/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Photograph of the construction of the city maintenance and equipment garage in Muscatine"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://digitalcollections.lib.iastate.edu/canvas/iawpa3137",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Front"
+        ]
+      },
+      "height": 4782,
+      "width": 5954,
+      "items": [
+        {
+          "id": "https://digitalcollections.lib.iastate.edu/canvas/iawpa3137/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digitalcollections.lib.iastate.edu/canvas/iawpa3137/annotation/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://digitalcollections.lib.iastate.edu/iiif/2/isu:WPA_b8f24i2_1~JP2~~isu_public/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 4782,
+                "width": 5954,
+                "format": "image/jpg"
+              },
+              "target": "https://digitalcollections.lib.iastate.edu/canvas/iawpa3137"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://digitalcollections.lib.iastate.edu/canvas/iawpa3138",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Back"
+        ]
+      },
+      "height": 4818,
+      "width": 5954,
+      "items": [
+        {
+          "id": "https://digitalcollections.lib.iastate.edu/canvas/iawpa3138/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digitalcollections.lib.iastate.edu/canvas/iawpa3138/annotation/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://digitalcollections.lib.iastate.edu/iiif/2/isu:WPA_b8f24i2_2~JP2~~isu_public/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 4818,
+                "width": 5954,
+                "format": "image/jpg"
+              },
+              "target": "https://digitalcollections.lib.iastate.edu/canvas/iawpa3138"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

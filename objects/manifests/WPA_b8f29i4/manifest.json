@@ -1,0 +1,76 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://digitalcollections.lib.iastate.edu/iiif/2/isu:WPA_b8f29i4/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Photograph of town hall construction in Wilton"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://digitalcollections.lib.iastate.edu/canvas/iawpa3185",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Front"
+        ]
+      },
+      "height": 4794,
+      "width": 5954,
+      "items": [
+        {
+          "id": "https://digitalcollections.lib.iastate.edu/canvas/iawpa3185/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digitalcollections.lib.iastate.edu/canvas/iawpa3185/annotation/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://digitalcollections.lib.iastate.edu/iiif/2/isu:WPA_b8f29i4_1~JP2~~isu_public/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 4794,
+                "width": 5954,
+                "format": "image/jpg"
+              },
+              "target": "https://digitalcollections.lib.iastate.edu/canvas/iawpa3185"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://digitalcollections.lib.iastate.edu/canvas/iawpa3186",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Back"
+        ]
+      },
+      "height": 4789,
+      "width": 5921,
+      "items": [
+        {
+          "id": "https://digitalcollections.lib.iastate.edu/canvas/iawpa3186/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digitalcollections.lib.iastate.edu/canvas/iawpa3186/annotation/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://digitalcollections.lib.iastate.edu/iiif/2/isu:WPA_b8f29i4_2~JP2~~isu_public/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 4789,
+                "width": 5921,
+                "format": "image/jpg"
+              },
+              "target": "https://digitalcollections.lib.iastate.edu/canvas/iawpa3186"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

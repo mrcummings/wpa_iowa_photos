@@ -1,0 +1,76 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://digitalcollections.lib.iastate.edu/iiif/2/isu:WPA_b9f29i2/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Photograph of the interior of a school building in Stockton"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://digitalcollections.lib.iastate.edu/canvas/iawpa3625",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Front"
+        ]
+      },
+      "height": 4780,
+      "width": 5875,
+      "items": [
+        {
+          "id": "https://digitalcollections.lib.iastate.edu/canvas/iawpa3625/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digitalcollections.lib.iastate.edu/canvas/iawpa3625/annotation/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://digitalcollections.lib.iastate.edu/iiif/2/isu:WPA_b9f29i2_1~JP2~~isu_public/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 4780,
+                "width": 5875,
+                "format": "image/jpg"
+              },
+              "target": "https://digitalcollections.lib.iastate.edu/canvas/iawpa3625"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://digitalcollections.lib.iastate.edu/canvas/iawpa3626",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Back"
+        ]
+      },
+      "height": 4737,
+      "width": 5911,
+      "items": [
+        {
+          "id": "https://digitalcollections.lib.iastate.edu/canvas/iawpa3626/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digitalcollections.lib.iastate.edu/canvas/iawpa3626/annotation/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://digitalcollections.lib.iastate.edu/iiif/2/isu:WPA_b9f29i2_2~JP2~~isu_public/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 4737,
+                "width": 5911,
+                "format": "image/jpg"
+              },
+              "target": "https://digitalcollections.lib.iastate.edu/canvas/iawpa3626"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

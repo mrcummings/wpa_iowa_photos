@@ -1,0 +1,11 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://digitalcollections.lib.iastate.edu/iiif/2/isu:WPA_b2f11i1/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Photograph of the town hall in West Liberty"
+    ]
+  },
+  "items": []
+}

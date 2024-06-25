@@ -1,0 +1,11 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://digitalcollections.lib.iastate.edu/iiif/2/isu:WPA_b3f23i1/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Map of park and school projects in Des Moines"
+    ]
+  },
+  "items": []
+}

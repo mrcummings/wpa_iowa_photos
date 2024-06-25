@@ -1,0 +1,11 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://digitalcollections.lib.iastate.edu/iiif/2/isu:WPA_b5f20i11/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Photograph of a person sitting at a desk surrounded by watercolors depicting Iowa objects"
+    ]
+  },
+  "items": []
+}

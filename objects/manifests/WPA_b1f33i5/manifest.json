@@ -1,0 +1,11 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://digitalcollections.lib.iastate.edu/iiif/2/isu:WPA_b1f33i5/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Photograph of people working atop the stands at a stadium in Clinton"
+    ]
+  },
+  "items": []
+}

@@ -1,0 +1,11 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://digitalcollections.lib.iastate.edu/iiif/2/isu:WPA_b6f10i13/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Photograph of the exhibit panel of WPA projects in Hardin County"
+    ]
+  },
+  "items": []
+}

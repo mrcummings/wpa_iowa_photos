@@ -1,0 +1,11 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://digitalcollections.lib.iastate.edu/iiif/2/isu:WPA_b1f43i5/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Photograph of a person lying on a levee in Iowa City"
+    ]
+  },
+  "items": []
+}

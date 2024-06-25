@@ -1,0 +1,11 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://digitalcollections.lib.iastate.edu/iiif/2/isu:WPA_b3f16i7/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Photograph of the underside of a bridge under construction in Des Moines"
+    ]
+  },
+  "items": []
+}

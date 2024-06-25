@@ -1,0 +1,11 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://digitalcollections.lib.iastate.edu/iiif/2/isu:WPA_b6f10i7/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Photograph of the exhibit panel of Iowa WPA projects in the Fifth District"
+    ]
+  },
+  "items": []
+}

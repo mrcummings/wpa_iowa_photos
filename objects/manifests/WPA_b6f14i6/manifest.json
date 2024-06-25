@@ -1,0 +1,11 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://digitalcollections.lib.iastate.edu/iiif/2/isu:WPA_b6f14i6/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Photograph of people viewing the Iowa State map symbolizing WPA projects as to the location"
+    ]
+  },
+  "items": []
+}

@@ -1,0 +1,11 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://digitalcollections.lib.iastate.edu/iiif/2/isu:WPA_b3f23i3/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Drawing of the river wall and park project in Des Moines"
+    ]
+  },
+  "items": []
+}

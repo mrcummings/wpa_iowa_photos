@@ -1,0 +1,11 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://digitalcollections.lib.iastate.edu/iiif/2/isu:WPA_b5f20i8/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Photograph of a person with models of oxen"
+    ]
+  },
+  "items": []
+}
